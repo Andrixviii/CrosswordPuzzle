@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container h1 {
+  font-family: "Quicksand", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 40px);
+  gap: 1px;
+  margin: 20px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  background-color: white;
+  transition: background-color 0.3s ease;
 }
-
-.App-link {
-  color: #61dafb;
+.number {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.questions {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.score {
+  text-align: right;
+  font-size: 24px;
+  margin: 20px 0;
+  padding-right: 20px;
+  color: #2c3e50;
+}
+.correct {
+  background-color: #a8e6cf;
+}
+.highlight {
+  background-color: #fff3cd;
+}
+.active {
+  background-color: #cce5ff;
+}
+.cell.highlight input {
+  background-color: transparent;
 }
