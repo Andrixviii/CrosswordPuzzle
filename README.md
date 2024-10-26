@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# Teka-Teki Silang
+
+
+## Preview
+
+<img src="https://github.com/user-attachments/assets/bc0021e3-c6a1-466e-a9af-a105be2f0c45" width="250" hight="250" >
+<img src="https://github.com/user-attachments/assets/1fd73245-5990-4dc4-afab-97a196a9b3fe" width="250" hight="250">
+
+## Demo
+
+Click this to see Demo: https://vercel.com/andrixviiis-projects/crossword-puzzle/8XEffjHBtcCEDeqN6C992HU953D9
+
+
+## Tools
+
+- React js
+- Node js 
+- NPM HTML5 & CSS 
+- Visual Code Studio
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
