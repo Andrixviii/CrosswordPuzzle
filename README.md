@@ -15,7 +15,8 @@ Click this to see Demo: https://crossword-puzzle-indol.vercel.app/
 
 - React js
 - Node js 
-- NPM HTML5 & CSS 
+- NPM
+- HTML5 & CSS 
 - Visual Code Studio
 
 ## Getting Started with Create React App
